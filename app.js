@@ -17,6 +17,4 @@ app.use(require('./middleware/headers'));
 // endpoints
 app.use('/breakfast', breakfast)
 
-// app.get('/', (req, res) => res.sendfile('index.html'));
-
 app.listen(process.env.PORT,() => console.log(` ${process.env.NAME} is listening on ${process.env.PORT}`));

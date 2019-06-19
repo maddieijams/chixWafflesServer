@@ -1,11 +1,12 @@
 {
   "name": "lumavateserver",
   "version": "1.0.0",
-  "description": "server for workout log app",
+  "description": "server for chix waffle app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev":"nodemon"
   },
   "author": "YOUR NAME HERE",
   "license": "MIT",
